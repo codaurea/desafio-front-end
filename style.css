@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}@font-face{
+    font-family: roboto;
+    src: url("Fontes/Roboto-Bold.ttf");
+    
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to{
+        opacitty: 1px;
+        transform:scale(1);
+    }
+}
+
+.cabecalho{
+    background-color: azure;
+
+   
+}
+h1{ 
+    font-size: 38px;
+    color: #3a8970;
+    text-align: center;
+    font-family: 'roboto';
+    padding: 50px;
+}
+.localizar{
+    margin-left: 525px;
+    font-family: 'roboto';
+    font-size: 35px;
+}
+input{
+    
+    margin-left: 450px;
+    width: 25%;
+    height: 45px;
+    font-family: 'roboto';
+    font-size: 15px;
+}
+button{
+    background-color: #3a8970;
+    border-radius: 55px;
+    color: whitesmoke;
+    font-family: 'roboto';
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#segunda-sessão{
+    animation-name: initial;
+    animation-duration: 500ms;
+    background-image: url(Imagens/Sem-título-3.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: 800px;
+    margin-top: 50px;
+    padding-left: 320px;
+    padding-top: 2px;
+    font-family: 'roboto';
+    color: #3a8970;
+}
+#quadrado1{
+    animation-name: fade;
+    animation-duration: 500ms;
+    width: 180px;
+    height: 250px;
+    background-color: aliceblue;
+    margin-top: 110px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+p{
+    font-size: 15px;
+}
+a{
+    color: #3a8970;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'roboto';
+}
